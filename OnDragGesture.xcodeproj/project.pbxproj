@@ -8,17 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		7ED10EC52872BD6700123244 /* OnDragGestureApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED10EC42872BD6700123244 /* OnDragGestureApp.swift */; };
-		7ED10EC72872BD6700123244 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED10EC62872BD6700123244 /* ContentView.swift */; };
+		7ED10EC72872BD6700123244 /* TinderCardSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED10EC62872BD6700123244 /* TinderCardSample.swift */; };
 		7ED10EC92872BD6900123244 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7ED10EC82872BD6900123244 /* Assets.xcassets */; };
 		7ED10ECC2872BD6900123244 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7ED10ECB2872BD6900123244 /* Preview Assets.xcassets */; };
+		7ED10ED32872BEAF00123244 /* SimpleSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED10ED22872BEAF00123244 /* SimpleSample.swift */; };
+		7ED10ED52872C35F00123244 /* SampleSignUpDrag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED10ED42872C35F00123244 /* SampleSignUpDrag.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7ED10EC12872BD6700123244 /* OnDragGesture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OnDragGesture.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7ED10EC42872BD6700123244 /* OnDragGestureApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnDragGestureApp.swift; sourceTree = "<group>"; };
-		7ED10EC62872BD6700123244 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7ED10EC62872BD6700123244 /* TinderCardSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinderCardSample.swift; sourceTree = "<group>"; };
 		7ED10EC82872BD6900123244 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7ED10ECB2872BD6900123244 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7ED10ED22872BEAF00123244 /* SimpleSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleSample.swift; sourceTree = "<group>"; };
+		7ED10ED42872C35F00123244 /* SampleSignUpDrag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleSignUpDrag.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +56,9 @@
 			isa = PBXGroup;
 			children = (
 				7ED10EC42872BD6700123244 /* OnDragGestureApp.swift */,
-				7ED10EC62872BD6700123244 /* ContentView.swift */,
+				7ED10EC62872BD6700123244 /* TinderCardSample.swift */,
+				7ED10ED42872C35F00123244 /* SampleSignUpDrag.swift */,
+				7ED10ED22872BEAF00123244 /* SimpleSample.swift */,
 				7ED10EC82872BD6900123244 /* Assets.xcassets */,
 				7ED10ECA2872BD6900123244 /* Preview Content */,
 			);
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7ED10EC72872BD6700123244 /* ContentView.swift in Sources */,
+				7ED10ED32872BEAF00123244 /* SimpleSample.swift in Sources */,
+				7ED10EC72872BD6700123244 /* TinderCardSample.swift in Sources */,
 				7ED10EC52872BD6700123244 /* OnDragGestureApp.swift in Sources */,
+				7ED10ED52872C35F00123244 /* SampleSignUpDrag.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -11,7 +11,7 @@ import SwiftUI
 struct OnDragGestureApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TinderCardSample()
         }
     }
 }
