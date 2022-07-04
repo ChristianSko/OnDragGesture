@@ -43,7 +43,7 @@ struct SampleSignUpDrag: View {
     }
 }
 
-struct Drag_Previews: PreviewProvider {
+struct SampleSignUpDrag_Previews: PreviewProvider {
     static var previews: some View {
         SampleSignUpDrag()
     }
